@@ -1,0 +1,14 @@
+.c-layout {
+
+}
+
+.c-layout>.content {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding-top: 72px;
+}
+
+.c-layout .content .layout-page {
+  background: #fff;
+  padding: 16px;
+}

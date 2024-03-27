@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: #fff;
+}
+
+.header .content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 60px;
+  padding: 10px 0;
+}
+
+.header .content .logo {
+  /* height: 100%; */
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action span {
+  cursor: pointer;
+  color: #0099ff;
+  margin-left: 16px;
+}
